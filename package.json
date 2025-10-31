@@ -12,7 +12,7 @@
     "url": "https://github.com/yourusername/team-sync-suite.git"
   },
   "keywords": ["team", "collaboration", "productivity"],
-  "author": "Your Name",
+  "author": "Jane Doe",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
