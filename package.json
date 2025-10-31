@@ -1,0 +1,22 @@
+{
+  "name": "team-sync-suite",
+  "version": "1.0.0",
+  "description": "A collaborative tool for enhancing team productivity.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/team-sync-suite.git"
+  },
+  "keywords": ["team", "collaboration", "productivity"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1",
+    "mongoose": "^5.10.9"
+  }
+}
