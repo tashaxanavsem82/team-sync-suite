@@ -7,7 +7,7 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 app.get('/', (req, res) => {
-  res.send('Welcome to Team Sync Suite!');
+  res.send('Welcome to Team Sync Suite! A real-time collaboration tool.');
 });
 
 io.on('connection', (socket) => {
